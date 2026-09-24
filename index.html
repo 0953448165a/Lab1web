@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk" data-owner="Мудрий Ярослав">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab1 — Мудрий Ярослав, ІН-43-5</title>
+
+    <meta
+        name="description"
+        content="Лабораторна робота 1 — Налаштування середовища розробки: VS Code, Live Server, DevTools."
+    >
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script defer src="./scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>💻 Мудрий Ярослав — група ІН-43-5</h1>
+
+        <p class="subtitle">
+            Лабораторна робота №1 — Налаштування середовища розробки:
+            VS Code, Live Server, DevTools
+        </p>
+    </header>
+
+
+    <main>
+
+        <section class="card profile" id="profile">
+
+            <div class="avatar">
+                <img
+                    src="./assets/img/avatar.png"
+                    width="220"
+                    height="300"
+                    alt="Аватар: Мудрий Ярослав"
+                >
+            </div>
+
+            <div class="info">
+
+                <h2>Про мене</h2>
+
+                <ul>
+                    <li>
+                        <strong>ПІБ:</strong>
+                        Мудрий Ярослав
+                    </li>
+
+                    <li>
+                        <strong>Група:</strong>
+                        ІН-43-5
+                    </li>
+
+                    <li>
+                        <strong>Мій унікальний колір-акцент:</strong>
+                        <span class="accent-preview">#7C4DFF</span>
+                    </li>
+
+                    <li>
+                        <strong>Улюблений інструмент розробника:</strong>
+                        DevTools
+                    </li>
+
+                    <li>
+                        <strong>Fun fact:</strong>
+                        Я люблю працювати з вебтехнологіями та тестувати
+                        власні ідеї під час розробки сайтів.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section class="card about" id="about">
+
+            <h2>Мій перший компонент UI</h2>
+
+            <p>
+                Цей компонент стилізовано моїм індивідуальним кольором-акцентом
+                і містить унікальний ідентифікатор сторінки, який генерується
+                у файлі <code>main.js</code> під час завантаження сторінки.
+            </p>
+
+            <div
+                class="badge"
+                id="pageIdBadge"
+                title="Згенерований ID сторінки"
+            ></div>
+
+        </section>
+
+
+        <section class="card checklist" id="checklist">
+
+            <h2>Чекліст для перевірки</h2>
+
+            <ol>
+                <li>
+                    Документ має індивідуальний title із моїми ПІБ і групою.
+                </li>
+
+                <li>
+                    Задано персональний колір-акцент
+                    (CSS змінна <code>--accent</code>).
+                </li>
+
+                <li>
+                    Виводиться унікальний ідентифікатор сторінки,
+                    який генерується у JavaScript.
+                </li>
+
+                <li>
+                    На сторінці є мій аватар.
+                </li>
+
+                <li>
+                    У консолі браузера є персональне вітання.
+                </li>
+            </ol>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <small>
+            &copy; <span id="currentYear"></span>
+            — ЛР1, Клієнтські технології вебпрограмування.
+        </small>
+
+    </footer>
+
+</body>
+
+</html>
